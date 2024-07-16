@@ -1,0 +1,21 @@
+ .candidates .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+
+ .add-candidate {
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .add-candidate * {
+    color: var(--text-color1);
+ }
